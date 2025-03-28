@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install -y ffmpeg
 RUN pip3 install -r requirements.txt
 
 # Command to run your Python script
-CMD ["python3", "main.py"]
+CMD ["python3", "bot.py"]
